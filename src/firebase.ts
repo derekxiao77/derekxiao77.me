@@ -2,15 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
 
-// TODO: Replace with your Firebase project config
-// Get this from Firebase Console > Project Settings > General > Your apps
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyC00u2EaZgdUn1UggvAQt0uWe7X06dq-Jo",
+  authDomain: "gopotty-82c23.firebaseapp.com",
+  projectId: "gopotty-82c23",
+  storageBucket: "gopotty-82c23.firebasestorage.app",
+  messagingSenderId: "1042691575282",
+  appId: "1:1042691575282:web:60763968fb975747ffef6b",
+  measurementId: "G-DBZS6LDY5L"
 };
 
 const app = initializeApp(firebaseConfig);
