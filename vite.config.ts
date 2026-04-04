@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/derekxiao77.me/',
+  base: '/gopotty/',
 })
